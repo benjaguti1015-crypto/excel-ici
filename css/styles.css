@@ -280,7 +280,7 @@ h1 { font: 700 clamp(1.7rem, 6vw, 2.5rem)/1.08 var(--display); letter-spacing: -
 .gridwrap td.edit { background: var(--surface); text-align: left; color: var(--ink); }
 .gridwrap td.picked { box-shadow: inset 0 0 0 2px var(--c2); background: color-mix(in srgb, var(--c2) 12%, transparent); }
 .gridwrap td.filling { box-shadow: inset 0 0 0 1px var(--accent); background: color-mix(in srgb, var(--accent) 13%, transparent); }
-.fill { position: absolute; right: -5px; bottom: -5px; z-index: 3; width: 10px; height: 10px; background: var(--accent); border: 2px solid var(--surface); cursor: crosshair; touch-action: none; }
+.fill { position: absolute; right: -1px; bottom: -1px; z-index: 3; width: 10px; height: 10px; background: var(--accent); border: 2px solid var(--surface); cursor: crosshair; touch-action: none; }
 .fill::after { content: ''; position: absolute; inset: -12px; }
 [data-cf=r] { background: var(--bad-soft) !important; color: var(--bad); }
 [data-cf=y] { background: var(--warn-soft) !important; color: var(--warn); }
